@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ec2-user/environment/awscloudbuilders-containerise-dotnet/Cdk/Cdk.csproj": {}
+  },
+  "projects": {
+    "/home/ec2-user/environment/awscloudbuilders-containerise-dotnet/Cdk/Cdk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ec2-user/environment/awscloudbuilders-containerise-dotnet/Cdk/Cdk.csproj",
+        "projectName": "Cdk",
+        "projectPath": "/home/ec2-user/environment/awscloudbuilders-containerise-dotnet/Cdk/Cdk.csproj",
+        "packagesPath": "/home/ec2-user/.nuget/packages/",
+        "outputPath": "/home/ec2-user/environment/awscloudbuilders-containerise-dotnet/Cdk/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ec2-user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Amazon.CDK": {
+              "target": "Package",
+              "version": "[1.35.0, )"
+            },
+            "Amazon.CDK.AWS.EC2": {
+              "target": "Package",
+              "version": "[1.35.0, )"
+            },
+            "Amazon.CDK.AWS.ECS": {
+              "target": "Package",
+              "version": "[1.35.0, )"
+            },
+            "Amazon.CDK.AWS.ECS.Patterns": {
+              "target": "Package",
+              "version": "[1.35.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
